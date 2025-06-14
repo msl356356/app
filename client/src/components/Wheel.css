@@ -1,0 +1,24 @@
+.wheel-svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+  background: transparent;
+}
+
+@media (max-width: 600px) {
+  .wheel-svg-container {
+    max-width: 320px;
+  }
+}
+
+/* Old wheel styles (not used with SVG) */
+/*
+.wheel-container { ... }
+.wheel { ... }
+.wheel-arrow { ... }
+.wheel-segment { ... }
+.wheel-segment.active { ... }
+*/

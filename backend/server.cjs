@@ -16,8 +16,10 @@ const DATA_DIR = "/data";
 const HISTORY_FILE = path.join(DATA_DIR, "history.json");
 
 // Create the data directory on server start if it doesn't exist
-if (!fs.existsSync(DATA_DIR)) {
+{
+  /*if (!fs.existsSync(DATA_DIR)) {
   fs.mkdirSync(DATA_DIR, { recursive: true });
+}*/
 }
 
 // --- Other constants ---
